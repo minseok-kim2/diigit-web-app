@@ -68,15 +68,19 @@ src/main/java/com/example/cross
 - ERD: `docs/erd`
 
 ### ERD
-![ERD](docs/erd/erd.png)
+![ERD](docs/erd/erd.svg)
 
 ### 아키텍처 다이어그램
-![Architecture](docs/images/architecture.png)
+![Architecture](docs/images/architecture.svg)
 
 ## 로컬 실행
 ```bash
 ./gradlew.bat bootRun
 ```
+
+## 문서
+- 추천 API/시퀀스: `cross/docs/recommendation.md`
+- 인증 정책: `cross/docs/auth.md`
 
 ## 문서
 - 추천 API/시퀀스: `cross/docs/recommendation.md`
