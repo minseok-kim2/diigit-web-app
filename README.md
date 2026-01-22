@@ -11,7 +11,6 @@ Spring Boot 기반으로 보안, 데이터 모델, API 구조를 정돈했고, �
 - [프로젝트 구조](#프로젝트-구조)
 - [API 요약](#api-요약)
 - [설계 포인트](#설계-포인트)
-- [이미지/ERD](#이미지erd)
 - [로컬 실행](#로컬-실행)
 - [문서](#문서)
 
@@ -63,27 +62,11 @@ src/main/java/com/example/cross
 - 확장성: 추천 로직을 서비스 단에 분리해 교체가 쉬움
 - 복구 전략: 공공 API 실패 시 DB 후보 폴백
 
-## 이미지/ERD
-- 이미지: `docs/images`
-- ERD: `docs/erd`
-
-### ERD
-![ERD](docs/erd/erd.svg)
-
-### 아키텍처 다이어그램
-![Architecture](docs/images/architecture.svg)
-
 ## 로컬 실행
 ```bash
 ./gradlew.bat bootRun
 ```
 
 ## 문서
-- 추천 API/시퀀스: `cross/docs/recommendation.md`
-- 인증 정책: `cross/docs/auth.md`
-
-## 문서
-- 추천 API/시퀀스: `cross/docs/recommendation.md`
-- 인증 정책: `cross/docs/auth.md`
 - 추천 API/시퀀스: `cross/docs/recommendation.md`
 - 인증 정책: `cross/docs/auth.md`
